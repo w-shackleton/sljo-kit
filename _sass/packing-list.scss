@@ -1,0 +1,101 @@
+.packing-list {
+  h2 {
+    background: #EEEEEE;
+  }
+
+  section {
+    margin-left: 10px;
+    border-left: 1px grey solid;
+    padding-left: 10px;
+  }
+
+  figure {
+    width: 80%;
+    padding: 5px;
+    border: thin #c0c0c0 solid;
+    margin: auto;
+  }
+
+  figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    text-align: center;
+    padding: 3px;
+  }
+}
+
+details {
+  margin-bottom: 40px;
+}
+
+details summary::after {
+  content: '✅';
+  display: inline-block;
+  padding-left: 20px;
+}
+
+details[open] summary::after {
+  content: '☐';
+}
+
+summary {
+  font-size: 1.2em;
+}
+
+/* Selectors */
+
+@mixin detail-disabled() {
+  --closed-by-default: 1;
+  summary {
+    text-decoration: line-through;
+    color: #666666;
+  }
+  summary::after {
+    content: 'Do not take';
+    font-size: 0.5em;
+  }
+  figure {
+    background: #c22;
+  }
+}
+
+.gig-mini .skip-gig-mini {
+  @include detail-disabled;
+}
+
+.gig-full .skip-gig-full {
+  @include detail-disabled;
+}
+
+.venue-small .skip-venue-small {
+  @include detail-disabled;
+}
+
+.venue-big .skip-venue-big {
+  @include detail-disabled;
+}
+
+.vocal-no .skip-vocal-no {
+  @include detail-disabled;
+}
+
+.vocal-yes .skip-vocal-yes {
+  @include detail-disabled;
+}
+
+.electric-no .skip-electric-no {
+  @include detail-disabled;
+}
+
+.electric-yes .skip-electric-yes {
+  display: none;
+}
+
+.lights-no .skip-lights-no {
+  @include detail-disabled;
+}
+
+.lights-yes .skip-lights-yes {
+  @include detail-disabled;
+}
