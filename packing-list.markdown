@@ -1,6 +1,8 @@
 ---
 layout: packing-list
 permalink: /packing-list/
+title: Packing list
+hidden: True
 ---
 
 # Packing list

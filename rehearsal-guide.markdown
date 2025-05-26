@@ -2,6 +2,7 @@
 layout: page
 title: Rehearsal setup guide
 permalink: /rehearsal-guide/
+in_menu: True
 ---
 
 # Speaker for vocals

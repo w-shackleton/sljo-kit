@@ -2,6 +2,7 @@
 layout: page
 title: Setup guide
 permalink: /setup-guide/
+in_menu: True
 ---
 
 ## Band layout

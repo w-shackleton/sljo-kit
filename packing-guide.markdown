@@ -2,10 +2,11 @@
 layout: page
 title: Packing guide
 permalink: /packing-guide/
+in_menu: True
 ---
 
 # Create a packing list
-<form method="GET" action="/packing-list">
+<form method="GET" action="/packing-list" class="guide-buttons">
   <fieldset>
     <legend>Type of gig</legend>
     <div><label><input type="radio" name="gig" value="full" checked /> Full band</label></div>
