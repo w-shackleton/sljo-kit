@@ -4,9 +4,19 @@
   }
 
   section {
-    margin-left: 10px;
-    border-left: 1px grey solid;
-    padding-left: 10px;
+    margin-right: 10px;
+    border-right: 1px grey solid;
+    padding-right: 10px;
+  }
+
+  section h3 {
+    top: 20px;
+    display: block;
+    padding: 3px;
+    position: sticky;
+    margin-left: auto;
+    width: fit-content;
+    background: white;
   }
 
   figure {
@@ -37,6 +47,10 @@ details summary::after {
 
 details[open] summary::after {
   content: '☐';
+}
+
+details[open].first-item summary::after {
+  content: '☐  ←check off items as you go';
 }
 
 summary {
@@ -72,6 +86,10 @@ summary {
   @include detail-disabled;
 }
 
+.venue-outdoor .skip-venue-outdoor {
+  @include detail-disabled;
+}
+
 .venue-big .skip-venue-big {
   @include detail-disabled;
 }
@@ -97,5 +115,13 @@ summary {
 }
 
 .lights-yes .skip-lights-yes {
+  @include detail-disabled;
+}
+
+.payments-no .skip-payments-no {
+  @include detail-disabled;
+}
+
+.payments-yes .skip-payments-yes {
   @include detail-disabled;
 }

@@ -28,6 +28,9 @@ permalink: /packing-guide/
     <div>
       <label><input type="checkbox" name="lights" value="yes" /> Stage lights</label>
     </div>
+    <div>
+      <label><input type="checkbox" name="payments" value="yes" /> Taking payments (tickets / donations)</label>
+    </div>
   </fieldset>
   <button>Generate</button>
 </form>

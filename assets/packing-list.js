@@ -19,6 +19,8 @@ document.addEventListener("DOMContentLoaded", function() {
             document.body.classList.add("venue-small");
             break;
         case "outdoor":
+            document.body.classList.add("venue-outdoor");
+            break;
         case "big":
             document.body.classList.add("venue-big");
             break;
@@ -48,6 +50,15 @@ document.addEventListener("DOMContentLoaded", function() {
             break;
         case "yes":
             document.body.classList.add("lights-yes");
+            break;
+    }
+
+    switch (params.get("payments")) {
+        case null:
+            document.body.classList.add("payments-no");
+            break;
+        case "yes":
+            document.body.classList.add("payments-yes");
             break;
     }
 
