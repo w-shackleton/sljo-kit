@@ -2,5 +2,25 @@
 # Front matter
 ---
 
+.home-buttons button {
+  width: 75%;
+  display: block;
+  padding: 20px;
+  font-size: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.guide-buttons button {
+  width: 75%;
+  display: block;
+  padding: 15px;
+  font-size: 1.2em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
 @import "minima";
 @import "packing-list";
