@@ -35,12 +35,20 @@ hidden: True
 
 <details open>
 <summary>Front-of-house speaker 1</summary>
-<div>TODO picture</div>
+<figure>
+  <img src="/assets/kit/foh-speaker.jpg" />
+  <figcaption>Both FOH speakers are the same. There's a kick-latch on two of
+  the wheels: make sure to disengage them.</figcaption>
+</figure>
 </details>
 
 <details open>
 <summary>Front-of-house speaker 2</summary>
-<div>TODO picture</div>
+<figure>
+  <img src="/assets/kit/foh-speaker.jpg" />
+  <figcaption>Both FOH speakers are the same. There's a kick-latch on two of
+  the wheels: make sure to disengage them.</figcaption>
+</figure>
 </details>
 
 <details open>
@@ -67,7 +75,7 @@ hidden: True
 <details open>
 <summary>Cable bag 1</summary>
 <figure>
-  <img src="/assets/kit/cable-bag.jpg" />
+  <img src="/assets/kit/cable-bag-cables.jpg" />
   <figcaption>One bag contains cables, the other bag contains extension reels.</figcaption>
 </figure>
 </details>
@@ -75,7 +83,7 @@ hidden: True
 <details open>
 <summary>Cable bag 2</summary>
 <figure>
-  <img src="/assets/kit/cable-bag.jpg" />
+  <img src="/assets/kit/cable-bag-reels.jpg" />
   <figcaption>One bag contains cables, the other bag contains extension reels.</figcaption>
 </figure>
 </details>
@@ -95,7 +103,10 @@ hidden: True
 
 <details open>
 <summary>Guitar amp</summary>
-<div>TODO picture</div>
+<figure>
+  <img src="/assets/kit/guitar-amp.jpg" />
+  <figcaption>There are several of these: bring any one.</figcaption>
+</figure>
 </details>
 
 <details open>
@@ -152,23 +163,33 @@ hidden: True
 
 <details open class="skip-lights-no">
 <summary>Uplighters</summary>
-<div>TODO picture</div>
+<figure>
+  <img src="/assets/kit/lights-uplighters.jpg" />
+  <figcaption>This box looks similar to the sound desk! The uplighter box has a
+  hole in the top, the sound desk box does not.</figcaption>
+</figure>
 </details>
 
 <details open class="skip-lights-no">
 <summary>Stage lights 1</summary>
-<div>TODO picture</div>
+<figure>
+  <img src="/assets/kit/lights-stage-lights.jpg" />
+  <figcaption>These are stored on the very high-up shelf above the door.</figcaption>
+</figure>
 </details>
 
 <details open class="skip-lights-no">
 <summary>Stage lights 2</summary>
-<div>TODO picture</div>
+<figure>
+  <img src="/assets/kit/lights-stage-lights.jpg" />
+  <figcaption>These are stored on the very high-up shelf above the door.</figcaption>
+</figure>
 </details>
 
 <details open class="skip-lights-no">
 <summary>Stage light stands</summary>
 <figure>
-  <img src="/assets/kit/stage-light-stands.jpg" />
+  <img src="/assets/kit/light-stands.jpg" />
   <figcaption>This bag says "Rockbag" on it.</figcaption>
 </figure>
 </details>
@@ -182,22 +203,30 @@ hidden: True
 
 <details open>
 <summary>Keyboard</summary>
-<div>TODO picture</div>
+<figure>
+  <img src="/assets/kit/piano.jpg" />
+</figure>
 </details>
 
 <details open>
 <summary>Piano stand</summary>
-<div>TODO picture</div>
+<figure>
+  <img src="/assets/kit/piano-stand.jpg" />
+</figure>
 </details>
 
 <details open>
 <summary>Piano stool</summary>
-<div>TODO picture</div>
+<figure>
+  <img src="/assets/kit/piano-stool.jpg" />
+</figure>
 </details>
 
 <details open>
 <summary>Piano music stand</summary>
-<div>TODO picture</div>
+<figure>
+  <img src="/assets/kit/piano-music-stand.jpg" />
+</figure>
 </details>
 
 </section>
@@ -214,28 +243,44 @@ hidden: True
 </details>
 
 <details open>
-<summary>Bass drum</summary>
-<div>TODO picture</div>
+<summary>Kick drum</summary>
+<figure>
+  <img src="/assets/kit/drum-kick.jpg" />
+  <figcaption>This is the largest of the drum cases.</figcaption>
+</figure>
 </details>
 
 <details open>
 <summary>Snare drum</summary>
-<div>TODO picture</div>
+<figure>
+  <img src="/assets/kit/drum-snare.jpg" />
+</figure>
 </details>
 
 <details open>
 <summary>Floor tom</summary>
-<div>TODO picture</div>
+<figure>
+  <img src="/assets/kit/drum-floor-tom.jpg" />
+  <figcaption>The floor tom case is larger than the tom A/B cases.</figcaption>
+</figure>
 </details>
 
 <details open>
 <summary>Tom A</summary>
-<div>TODO picture</div>
+<figure>
+  <img src="/assets/kit/drum-tom-a.jpg" />
+  <figcaption>We usually only bring one of the two toms to a gig: your drummer
+  may have a preference as to which one we bring.</figcaption>
+</figure>
 </details>
 
-<details open>
+<details open class="skip">
 <summary>Tom B</summary>
-<div>TODO picture</div>
+<figure>
+  <img src="/assets/kit/drum-tom-b.jpg" />
+  <figcaption>We usually only bring one of the two toms to a gig: your drummer
+  may have a preference as to which one we bring.</figcaption>
+</figure>
 </details>
 
 <details open>
@@ -247,17 +292,23 @@ hidden: True
 
 <details open>
 <summary>Drum mat</summary>
-<div>TODO picture</div>
+<figure>
+  <img src="/assets/kit/drum-mat.jpg" />
+</figure>
 </details>
 
 <details open>
 <summary>Drum stool</summary>
-<div>TODO picture</div>
+<figure>
+  <img src="/assets/kit/drum-stool.jpg" />
+</figure>
 </details>
 
 <details open>
 <summary>Drum music stand</summary>
-<div>TODO picture</div>
+<figure>
+  <img src="/assets/kit/drum-stand.jpg" />
+</figure>
 </details>
 
 </section>
@@ -274,7 +325,9 @@ hidden: True
 
 <details open>
 <summary>Conductor pad</summary>
-<div>TODO picture</div>
+<figure>
+  <img src="/assets/kit/conductor-pad.jpg" />
+</figure>
 </details>
 
 </section>
@@ -292,6 +345,13 @@ hidden: True
 <div>TODO picture and count how many are needed for each gig type</div>
 </details>
 
+<details open>
+<summary>Conductor stand</summary>
+<figure>
+  <img src="/assets/kit/conductor-music-stand.jpg" />
+</figure>
+</details>
+
 </section>
 
 ## Other
@@ -307,6 +367,14 @@ hidden: True
 <details open class="skip-venue-outdoor">
 <summary>Stand lights</summary>
 <div>TODO picture and count how many are needed for each gig type</div>
+</details>
+
+<details open class="skip-promo-no">
+<summary>A-frame</summary>
+<figure>
+  <img src="/assets/kit/a-frame.jpg" />
+  <figcaption>Take the A-frame!</figcaption>
+</figure>
 </details>
 
 </section>

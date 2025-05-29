@@ -26,40 +26,17 @@ document.addEventListener("DOMContentLoaded", function() {
             break;
     }
 
-    switch (params.get("vocal")) {
-        case null:
-            document.body.classList.add("vocal-no");
-            break;
-        case "yes":
-            document.body.classList.add("vocal-yes");
-            break;
-    }
+    const toggles = ["vocal", "electric", "lights", "payments", "promo"];
 
-    switch (params.get("electric")) {
-        case null:
-            document.body.classList.add("electric-no");
-            break;
-        case "yes":
-            document.body.classList.add("electric-yes");
-            break;
-    }
-
-    switch (params.get("lights")) {
-        case null:
-            document.body.classList.add("lights-no");
-            break;
-        case "yes":
-            document.body.classList.add("lights-yes");
-            break;
-    }
-
-    switch (params.get("payments")) {
-        case null:
-            document.body.classList.add("payments-no");
-            break;
-        case "yes":
-            document.body.classList.add("payments-yes");
-            break;
+    for (const toggle of toggles) {
+        switch (params.get(toggle)) {
+            case null:
+                document.body.classList.add(`${toggle}-no`);
+                break;
+            case "yes":
+                document.body.classList.add(`${toggle}-yes`);
+                break;
+        }
     }
 
     for (const d of document.querySelectorAll("details")) {

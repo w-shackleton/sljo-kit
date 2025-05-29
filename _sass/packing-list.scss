@@ -74,6 +74,10 @@ summary {
   }
 }
 
+.skip {
+  @include detail-disabled;
+}
+
 .gig-mini .skip-gig-mini {
   @include detail-disabled;
 }
@@ -123,5 +127,13 @@ summary {
 }
 
 .payments-yes .skip-payments-yes {
+  @include detail-disabled;
+}
+
+.promo-no .skip-promo-no {
+  @include detail-disabled;
+}
+
+.promo-yes .skip-promo-yes {
   @include detail-disabled;
 }

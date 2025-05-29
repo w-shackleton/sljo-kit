@@ -32,6 +32,9 @@ in_menu: True
     <div>
       <label><input type="checkbox" name="payments" value="yes" /> Taking payments (tickets / donations)</label>
     </div>
+    <div>
+      <label><input type="checkbox" name="promo" value="yes" /> Promotional material</label>
+    </div>
   </fieldset>
   <button>Generate</button>
 </form>
