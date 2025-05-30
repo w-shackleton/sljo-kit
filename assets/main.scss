@@ -23,5 +23,21 @@
   margin-bottom: 10px;
 }
 
+.two-flex {
+  display: flex;
+  flex-direction: row;
+  div {
+    flex-grow: 1;
+    label {
+      display: block;
+    }
+  }
+  div:first-of-type {
+    border-right: 1px grey solid;
+    margin-right: 10px;
+  }
+}
+
+
 @import "minima";
 @import "packing-list";

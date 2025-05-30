@@ -24,6 +24,11 @@
     padding: 5px;
     border: thin #c0c0c0 solid;
     margin: auto;
+
+    img {
+      margin: auto;
+      max-height: 35vh;
+    }
   }
 
   figcaption {
@@ -33,6 +38,11 @@
     text-align: center;
     padding: 3px;
   }
+
+  .stand-count, .musician-count {
+    font-weight: bold;
+  }
+
 }
 
 details {
@@ -100,6 +110,10 @@ summary {
 
 .vocal-no .skip-vocal-no {
   @include detail-disabled;
+}
+
+.vocal-no .hidden-vocal-no {
+  display: none;
 }
 
 .vocal-yes .skip-vocal-yes {

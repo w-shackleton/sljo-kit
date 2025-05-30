@@ -45,5 +45,25 @@ document.addEventListener("DOMContentLoaded", function() {
             d.removeAttribute("open");
         }
     }
+
+    for (const standCounter of document.querySelectorAll('.stand-count')) {
+        const parts = standCounter.dataset.parts.split(' ');
+        let count = 0;
+        for (const part of parts) {
+            const musicianCount = params.get(part) ?? 1;
+            count += Math.ceil(musicianCount / 2);
+        }
+        standCounter.innerHTML = count;
+    }
+
+    for (const musicianCounter of document.querySelectorAll('.musician-count')) {
+        const parts = musicianCounter.dataset.parts.split(' ');
+        let count = 0;
+        for (const part of parts) {
+            const musicianCount = params.get(part) ?? 1;
+            count += parseInt(musicianCount);
+        }
+        musicianCounter.innerHTML = count;
+    }
 });
 

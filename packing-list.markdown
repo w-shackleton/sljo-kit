@@ -5,7 +5,9 @@ title: Packing list
 hidden: True
 ---
 
-# Packing list
+<p>
+You have <span class="musician-count" data-parts="alto1 alto2 tenor1 tenor2 bari clarinet guitar bass"></span> musicians who will need chairs at the venue.
+</p>
 
 ## Sound equipment
 
@@ -320,7 +322,47 @@ hidden: True
 
 <details open>
 <summary>Music pad boxes</summary>
-<div>TODO picture</div>
+<div>
+<p>
+You need this many <strong>music pads</strong>:
+</p>
+<ul>
+  <li class="hidden-vocal-no"><strong>Vocal</strong></li>
+  <li>
+    Rhythm:
+    <ul>
+      <li>Piano</li>
+      <li>Guitar</li>
+      <li>Bass</li>
+      <li>Drums</li>
+    </ul>
+  </li>
+  <li>
+    Horns:
+    <ul>
+      <li><span class="stand-count" data-parts="alto1"></span> Alto 1</li>
+      <li><span class="stand-count" data-parts="alto2"></span> Alto 2</li>
+      <li><span class="stand-count" data-parts="tenor1"></span> Tenor 1</li>
+      <li><span class="stand-count" data-parts="tenor2"></span> Tenor 2</li>
+      <li><span class="stand-count" data-parts="bari"></span> Bari</li>
+      <li><span class="stand-count" data-parts="clarinet"></span> Clarinet</li>
+    </ul>
+  </li>
+  <li>
+    Brass:
+    <ul>
+      <li><span class="stand-count" data-parts="tpt1"></span> Trumpet 1</li>
+      <li><span class="stand-count" data-parts="tpt2"></span> Trumpet 2</li>
+      <li><span class="stand-count" data-parts="tpt3"></span> Trumpet 3</li>
+      <li><span class="stand-count" data-parts="tpt4"></span> Trumpet 4</li>
+      <li><span class="stand-count" data-parts="tbn1"></span> Trombone 1</li>
+      <li><span class="stand-count" data-parts="tbn2"></span> Trombone 2</li>
+      <li><span class="stand-count" data-parts="tbn3"></span> Trombone 3</li>
+      <li><span class="stand-count" data-parts="tbn4"></span> Trombone 4</li>
+    </ul>
+  </li>
+</ul>
+</div>
 </details>
 
 <details open>
@@ -337,12 +379,27 @@ hidden: True
 
 <details open>
 <summary>Red/black stands</summary>
-<div>TODO picture and count how many are needed for each gig type</div>
+<p>
+You need <span class="stand-count" data-parts="alto1 alto2 tenor1 tenor2 bari clarinet"></span> red/black stands.
+</p>
+<figure>
+  <img src="/assets/kit/stands-branded.jpg" />
+  <figcaption>There are two different heights of stand! We use the short ones with logos on.</figcaption>
+</figure>
 </details>
 
 <details open>
 <summary>Black "rehearsal" stands</summary>
-<div>TODO picture and count how many are needed for each gig type</div>
+<p>
+You need <span class="stand-count" data-parts="tpt1 tpt2 tpt3 tpt4 tbn1 tbn2 tbn3 tbn4 guitar bass"></span> rehearsal stands.
+</p>
+<figure>
+  <img src="/assets/kit/stands-rehearsal.jpg" />
+</figure>
+<figure>
+  <img src="/assets/kit/stands-rehearsal-bag.jpg" />
+  <figcaption>The rehearsal stands go in these bags</figcaption>
+</figure>
 </details>
 
 <details open>
@@ -366,7 +423,10 @@ hidden: True
 
 <details open class="skip-venue-outdoor">
 <summary>Stand lights</summary>
-<div>TODO picture and count how many are needed for each gig type</div>
+<p>
+You need <span class="stand-count" data-parts="alto1 alto2 tenor1 tenor2 bari clarinet guitar bass tpt1 tpt2 tpt3 tpt4 tbn1 tbn2 tbn3 tbn4"></span> stand lights.
+</p>
+<div>TODO picture</div>
 </details>
 
 <details open class="skip-promo-no">
