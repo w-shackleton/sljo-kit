@@ -418,7 +418,9 @@ You need <span class="stand-count" data-parts="tpt1 tpt2 tpt3 tpt4 tbn1 tbn2 tbn
 
 <details open class="skip-payments-no">
 <summary>Card reader</summary>
-<div>TODO picture</div>
+<figure>
+  <img src="/assets/kit/promo.jpg" />
+</figure>
 </details>
 
 <details open class="skip-venue-outdoor">
