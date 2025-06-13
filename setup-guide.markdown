@@ -7,8 +7,14 @@ in_menu: True
 
 ## Band layout
 
-<form action="/setup-guide/layout" class="guide-buttons">
+<form action="/setup-guide/layout/" class="guide-buttons">
 <button>Example layouts</button>
+</form>
+
+## Troubleshooting
+
+<form action="/setup-guide/troubleshooting/" class="guide-buttons">
+<button>Troubleshooting guide</button>
 </form>
 
 ## Kit schematic

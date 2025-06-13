@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /setup-guide/layout
+permalink: /setup-guide/layout/
 ---
 
 Here's some example band layouts to provide inspiration:

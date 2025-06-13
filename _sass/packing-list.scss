@@ -43,28 +43,27 @@
     font-weight: bold;
   }
 
-}
-
-details {
-  margin-bottom: 40px;
-}
-
-details summary::after {
-  content: '✅';
-  display: inline-block;
-  padding-left: 20px;
-}
-
-details[open] summary::after {
-  content: '☐';
-}
-
-details[open].first-item summary::after {
-  content: '☐  ←check off items as you go';
-}
-
-summary {
-  font-size: 1.2em;
+  details {
+    margin-bottom: 40px;
+  }
+  
+  details summary::after {
+    content: '✅';
+    display: inline-block;
+    padding-left: 20px;
+  }
+  
+  details[open] summary::after {
+    content: '☐';
+  }
+  
+  details[open].first-item summary::after {
+    content: '☐  ←check off items as you go';
+  }
+  
+  summary {
+    font-size: 1.2em;
+  }
 }
 
 /* Selectors */
