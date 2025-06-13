@@ -22,23 +22,23 @@ in_menu: True
     <legend>Number of musicians</legend>
     <div class="two-flex">
       <div>
-        <label><input type="number" name="alto1" min=1 max=12 data-fullband=6 /> Alto 1</label>
-        <label><input type="number" name="alto2" min=1 max=12 data-fullband=10 /> Alto 2</label>
-        <label><input type="number" name="tenor1" min=1 max=12 data-fullband=6 /> Tenor 1</label>
-        <label><input type="number" name="tenor2" min=1 max=12 data-fullband=6 /> Tenor 2</label>
+        <label><input type="number" name="alto1" min=1 max=12 data-fullband=4 /> Alto 1</label>
+        <label><input type="number" name="alto2" min=1 max=12 data-fullband=6 /> Alto 2</label>
+        <label><input type="number" name="tenor1" min=1 max=12 data-fullband=3 /> Tenor 1</label>
+        <label><input type="number" name="tenor2" min=1 max=12 data-fullband=3 /> Tenor 2</label>
         <label><input type="number" name="bari" min=1 max=3 data-fullband=3 /> Bari</label>
-        <label><input type="number" name="clarinet" min=1 max=4 data-fullband=3 /> Clarinet</label>
+        <label><input type="number" name="clarinet" min=1 max=4 data-fullband=1 /> Clarinet</label>
       </div>
       <div>
-        <label><input type="number" name="tpt1" min=1 max=4 data-fullband=4 /> Trumpet 1</label>
-        <label><input type="number" name="tpt2" min=1 max=4 data-fullband=4 /> Trumpet 2</label>
-        <label><input type="number" name="tpt3" min=1 max=4 data-fullband=4 /> Trumpet 3</label>
-        <label><input type="number" name="tpt4" min=1 max=4 data-fullband=4 /> Trumpet 4</label>
+        <label><input type="number" name="tpt1" min=1 max=4 data-fullband=1 /> Trumpet 1</label>
+        <label><input type="number" name="tpt2" min=1 max=4 data-fullband=1 /> Trumpet 2</label>
+        <label><input type="number" name="tpt3" min=1 max=4 data-fullband=1 /> Trumpet 3</label>
+        <label><input type="number" name="tpt4" min=1 max=4 data-fullband=1 /> Trumpet 4</label>
 
-        <label><input type="number" name="tbn1" min=1 max=4 data-fullband=2 /> Trombone 1</label>
-        <label><input type="number" name="tbn2" min=1 max=4 data-fullband=2 /> Trombone 2</label>
-        <label><input type="number" name="tbn3" min=1 max=4 data-fullband=2 /> Trombone 3</label>
-        <label><input type="number" name="tbn4" min=1 max=4 data-fullband=2 /> Trombone 4</label>
+        <label><input type="number" name="tbn1" min=1 max=4 data-fullband=1 /> Trombone 1</label>
+        <label><input type="number" name="tbn2" min=1 max=4 data-fullband=1 /> Trombone 2</label>
+        <label><input type="number" name="tbn3" min=1 max=4 data-fullband=1 /> Trombone 3</label>
+        <label><input type="number" name="tbn4" min=1 max=4 data-fullband=1 /> Trombone 4</label>
       </div>
     </div>
   </fieldset>
